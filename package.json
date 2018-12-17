@@ -1,0 +1,24 @@
+{
+  "name": "teamchat",
+  "version": "1.0.0",
+  "description": "Communications gateway for teams and leagues.",
+  "main": "chatserver.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "js-sha256": "^0.9.0",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.4",
+    "socket.io": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://EricRichards@bitbucket.org/EricRichards/teamchat.git"
+  },
+  "author": "EricRichards",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/EricRichards/teamchat#readme"
+}

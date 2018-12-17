@@ -1,0 +1,148 @@
+/* Body CSS */
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-color: #292929;
+}
+
+/* Wrapper CSS */
+.wrapper{
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    background-color: white;
+}
+
+/* Top Banner CSS */
+.top_banner{
+    height: 150px;
+    background-color: #292929;
+}
+
+/* Navbar CSS */
+.nav_bar{
+    height: 55px;
+    background-color: #292929;
+    border-top: grey solid 1px;
+    
+}
+.nav_bar ul {
+    height: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid grey;
+}
+.nav_bar li {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 120px;
+    border-bottom: none;
+    line-height: 55px;
+    float: left;    
+}   
+.nav_bar a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: .3s background-color;
+} 
+.nav_bar a:hover {
+    background-color: #535353;
+}
+
+/* Dropdown Button CSS */
+.dropbtn {
+    color: white;
+    line-height: 55px;
+    width: 120px;
+    border: none;
+    cursor: pointer;
+    background-color: #292929;
+    transition: .3s background-color;
+    padding: 0 !important;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #535353;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 250px;
+    min-height: 250px;
+    overflow: auto;
+    right: 0;
+    z-index: 4;
+    border: 1px solid grey;
+}
+
+.dropdown-content input{
+    width: 50%;
+}
+
+.show {
+    display:block;
+}
+
+#myDropdown{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#mySignUpDropdown{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#loginForm{
+    text-align: center;
+}
+
+#loginForm input{
+    height:20px;
+    width:75%;
+}
+
+#signUpForm{
+    text-align: center;
+}
+
+#signUpForm input{
+    height:20px;
+    width:75%;
+}
+
+#submit{
+    width: 30% !important;
+}
+/* Content CSS */
+.content{
+    height: auto;
+    background-color: white;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    position:relative;
+}
+
+/* Footer CSS */
+.footer{
+    height: 55px;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+
+}
